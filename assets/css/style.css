@@ -23,6 +23,7 @@ img {
 }
 
 .cover-img {
+    pointer-events: none;
     height: 100%;
     width: 100%;
     filter: blur(1px);
@@ -66,13 +67,11 @@ img {
     max-width: 90%;
 }
 
-.show {
-    visibility: visible;
-    animation: fadeIn 0.5s;
+.showing {
+    animation: fadeIn 0.5s forwards;
 }
 
-.hide {
-    visibility: hidden 0.5s;
+.hiding {
     animation: fadeOut 0.5s forwards;
 }
 
