@@ -61,14 +61,32 @@ function CloseImgPreview() {
     setTimeout(function () {
         imgWindow.parentElement.remove();
     }, 500);
-};
+}
 
-// Start
+// Prevent user from selecting content
 window.onload = function () {
     document.body.onselectstart = function () {
         return false;
     }
 }
+
+// variables
+const facebookLink = 'https://www.facebook.com/dy.kaizu/'; // Link to facebook profile
+const instagramLink = 'https://www.instagram.com/dy_kaizu'; // Link to instagram profile
+const twitterLink = 'https://x.com/dykaiii'; // Link to twitter profile
+
+document.querySelectorAll('.facebook-link').forEach(element => {
+    element.href = facebookLink;
+    element.target = '_blank';
+});
+document.querySelectorAll('.instagram-link').forEach(element => {
+    element.href = instagramLink;
+    element.target = '_blank';
+});
+document.querySelectorAll('.twitter-link').forEach(element => {
+    element.href = twitterLink;
+    element.target = '_blank';
+});
 
 // create gallery contents
 for (let i = 0; i < 9; i++) {
@@ -84,6 +102,6 @@ galleryImg.forEach(function (element) {
 
         if (!document.getElementById('page-top')) CreateImgPreview(imgDir, imgAlt);
 
-        OpenImgPreview()
+        OpenImgPreview();
     })
 });

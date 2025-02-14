@@ -5,7 +5,6 @@
 img {
     object-position: top;
     object-fit: cover;
-    user-drag: none;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
