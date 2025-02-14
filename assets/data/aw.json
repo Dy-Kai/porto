@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "file_name": "ayanami",
+        "url": "assets/img/aw/ayanami.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 2,
+        "file_name": "kamisato-ayaka",
+        "url": "assets/img/aw/kamisato-ayaka.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 3,
+        "file_name": "kokomi",
+        "url": "assets/img/aw/kokomi.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 4,
+        "file_name": "kyouka-misogi",
+        "url": "assets/img/aw/kyouka-misogi.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 5,
+        "file_name": "nahida",
+        "url": "assets/img/aw/nahida.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 6,
+        "file_name": "raiden-shogun",
+        "url": "assets/img/aw/raiden-shogun.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 7,
+        "file_name": "sayu",
+        "url": "assets/img/aw/sayu.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 8,
+        "file_name": "tingyun",
+        "url": "assets/img/aw/tingyun.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 9,
+        "file_name": "virtunix-talents",
+        "url": "assets/img/aw/virtunix-talents.jpg",
+        "file_extension": ".jpg"
+    },
+    {
+        "id": 10,
+        "file_name": "yoimiya",
+        "url": "assets/img/aw/yoimiya.jpg",
+        "file_extension": ".jpg"
+    }
+]
